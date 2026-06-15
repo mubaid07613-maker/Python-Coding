@@ -61,25 +61,14 @@ python todo_list.py
 
 ## Important Note for To-Do List
 
-The To-Do List project uses a `.json` file to store tasks. Make sure the `tasks.json` file is available in the same folder as the To-Do List Python file.
+The To-Do List project uses a `tasks.json` file to save tasks.
 
-Example project structure:
+Make sure `tasks.json` is placed in the same folder as `todo_list.py`.
 
-```text
-python-beginner-projects/
-│
-├── README.md
-├── number_guessing_game.py
-├── todo_list.py
-└── tasks.json
-```
+Initial content of `tasks.json`:
 
-If the `.json` file is in the same folder as the Python file, you can use a relative path like this in your code:
-
-```python
-file_path = "tasks.json"
-```
-
+```json
+[]
 ## What I Learned
 
 Through these projects, I practiced basic Python programming concepts such as loops, conditions, functions, user input, file handling, and JSON-based data storage.
