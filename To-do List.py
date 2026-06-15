@@ -1,9 +1,8 @@
 import json
 import os
 from pathlib import Path
-user_input = input("Enter your File Path : ")
-FILE_PATH = Path(user_input.strip('"'))
-print("That file path is", FILE_PATH.resolve())
+FILE_PATH = Path(__file__).with_name("tasks.json")
+print("Using task file:", FILE_PATH.resolve())
 if os.path.exists(FILE_PATH):
     try:
         with open(FILE_PATH, "r") as file:
