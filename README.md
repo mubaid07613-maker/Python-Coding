@@ -69,6 +69,7 @@ Initial content of `tasks.json`:
 
 ```json
 []
+```
 ## What I Learned
 
 Through these projects, I practiced basic Python programming concepts such as loops, conditions, functions, user input, file handling, and JSON-based data storage.
