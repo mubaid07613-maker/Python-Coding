@@ -63,7 +63,7 @@ while True:
                 case 2:
                     for task in my_tasks:
                         recycle_bin.append(task)
-                    my_tasks.clear 
+                    my_tasks.clear()
                     print("All your tasks have been cleared and sent to recycle bin")
         case 4:
             if not recycle_bin:
